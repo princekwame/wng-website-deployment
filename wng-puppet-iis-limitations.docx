@@ -1,0 +1,26 @@
+# LIMITATIONS
+
+The current puppet-iis module lacks the ability to finely configure site created by it. It's great for quickly creating an IIS site if you're not 
+going to be heavily customising.
+
+Dependency
+This module is dependent on other modules being installed and configured correctly before you can fully utilise it. Dependencies can add another
+layer of complexity to the deployment solution.
+
+The Web-Administration only supports IIS 7.5 and upwards meaning it cannot be used in an environment where there's legacy windows servers.
+Web-Administration module is also limited in the sense that you still won't be able to gain fine control over the configuration of the site without
+using other PS modules i.e. New-ItemProperty, Set-ItemProperty et al.
+
+IMPROVEMENTS
+This really depends on what I am trying achieve. If I want to be able to;
+
+a. Create IIS sites quickly
+b. Not interested in fine grain configuration
+
+Then this is the perfect module for that type of operation. However as an engineer I don't want to be using too many tools to achieve an end goal.
+The ability to use a single module would cut down the amount of time spent going back and forth between different modules to figure out which one is causing a problem.
+
+With that thought in mind I would aim to reduce the dependencies of this module if possible and work on adding features to improve the capabilities and functionality.
+
+SIMILAR MODULES
+https://forge.puppetlabs.com/simondean/iis/types
