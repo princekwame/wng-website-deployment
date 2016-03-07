@@ -21,3 +21,6 @@ Then this is the perfect module for that type of operation. However as an engine
 The ability to use a single module would cut down the amount of time spent going back and forth between different modules to figure out which one is causing a problem.
 
 With that thought in mind I would aim to reduce the dependencies of this module if possible and work on adding features to improve the capabilities and functionality.
+
+SIMILAR MODULES
+https://forge.puppetlabs.com/simondean/iis/types
