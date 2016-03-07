@@ -1,6 +1,6 @@
 # IIS Site Automation
 
-node 'wng-web01' {
+node 'wng-web-01' {
     include 'mywebsite'
 }
 
